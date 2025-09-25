@@ -1,0 +1,29 @@
+Objects -> Variables and Methods seperated
+Class -> Variables and Methods used together
+
+Object is a copy of a class put into memory(aka Instance)
+
+-----
+Overloading -> Same name, but different numbers and parameters
+
+.subString(s);
+.subString(5,7);
+
+Two ways to use them!
+
+double math.abs(double a)
+float math.abs(double a)
+
+-----
+
+Constructor - Used to initialize variables when a new object is created
+
+Java creates a no-argument default - You wont see it in text
+**IF** you write one, java no longer creates a default constructor
+
+------
+
+Garbage -> When something isnt pointed at anymore it beocmes "garbage" aka the data no longer exist for it 
+Garbage Collector -> Cleans up garbage so new objects can take its spot
+^Happens automatically in java, 
+
