@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.io.*;
+
+Scanner lets us take in inputs from a user that being typing or from a file!
+
+--Reading terminal input--
+{
+    Scanner sc = new Scanner();
+    int hi = sc.next();
+    String e = sc.nextLine();
+    //SIMPLE!!!
+}
+
+--Reading from a file--
+
+{
+    Scanner sc = new Scanner(new File("FILE.TXT"))
+    try
+    {
+        int hi = sc.next();
+    }
+
+    sc.close(); //To avoid resource leaks 
+
+    catch(IOException e)
+    {
+        Sysout(e);
+    }
+
+}
+
+since this is taking things from another file, errors can occur with pathing and what not so thats where the 
+IOException appears to catch it so your code can still run 

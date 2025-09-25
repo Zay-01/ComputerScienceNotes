@@ -1,0 +1,35 @@
+-- Method Structure --
+<VISIBILITY> <ReturnType> <methodName>(parameters) {
+    // method body
+}
+
+-- Visibility --
+private -> only this class can access variables and methods marked as private 
+public -> all classes can access variables and methods marked as public
+
+-- Return Types --
+int, char, double, boolean, String, arrays, etc.  
+void -> nothing is returned  
+NOTE: THE METHOD STOPS THE MOMENT YOU GET A VALUE RETURNED!
+
+-- Getter vs Setter --
+Getter -> returns a variable’s value (read-only)  
+Setter -> updates a variable’s value (write-only, usually void)  
+
+-- Example --
+Driver class:
+- Contains a Calculator object
+
+Calculator class:
+public int speedRate(int car) {
+    return car - 100;
+}
+
+Driver code:
+int car = 4;
+int carSpeed = calculator.speedRate(car);
+// carSpeed = -96
+
+-- Notes --
+- Parameters can be named anything (car, house, x, etc.)  
+- The return type must match what is returned  

@@ -1,0 +1,13 @@
+Encapsulation -> Hiding variables to make it harder to modify them 
+
+Modifiers -> Final and Visibility
+Visibility -> Public and Private
+
+Private -> Only visible to that class and cant be interacted with by other classes so if i did
+Public -> Other classes can use these variables or Methods
+
+Song album = new album(time, name);
+album.timeSeconds = 9532847283; //NOT POSSIBLE!!!!!!!
+
+I cant change the time once i constructed this object because its private unless i had a setter method
+or a method which allowed me to modify the variable (this is equivelent to using public but with extra steps)
