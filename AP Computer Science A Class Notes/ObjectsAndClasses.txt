@@ -12,7 +12,7 @@ Overloading -> Same name, but different numbers and parameters
 Two ways to use them!
 
 double math.abs(double a)
-float math.abs(double a)
+float math.abs(float a)
 
 -----
 
