@@ -1,0 +1,17 @@
+-- Method Structure --
+<VISIBILITY> <ReturnType> <methodName>(parameters) {
+    // method body
+}
+
+Refer to MethodsVisibilityReturnTypes for above^
+
+-- Constructors --
+
+Constructors -> Allows you to initilize variables within a class 
+
+If i did 
+
+for(int i = 0; i < arraySizeHere; i++)
+{
+    Song[] album = new Song()
+}

@@ -1,10 +1,10 @@
 Objects -> Variables and Methods seperated
 Class -> Variables and Methods used together
 
-Object is a copy of a class put into memory(aka Instance)
+Object is a copy of a class put into memory(Instance)
 
 -----
-Overloading -> Same name, but different numbers and parameters
+Overloading -> Same method  name, but different parameters
 
 .subString(s);
 .subString(5,7);
@@ -12,7 +12,7 @@ Overloading -> Same name, but different numbers and parameters
 Two ways to use them!
 
 double math.abs(double a)
-float math.abs(float a)
+float math.abs(double a)
 
 -----
 
