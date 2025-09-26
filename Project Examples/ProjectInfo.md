@@ -8,5 +8,3 @@ HIEARCHY
 ...
 ..
 .
-
-In here i will try to say which program shows what examples (very basic stuff i will probably ignore tho!)

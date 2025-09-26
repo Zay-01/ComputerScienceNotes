@@ -13,5 +13,40 @@ If i did
 
 for(int i = 0; i < arraySizeHere; i++)
 {
-    Song[] album = new Song()
+    Song[] album = new Song(time, title)
 }
+
+Song class:
+public Song(String time,String title)
+{
+    private String timeString = time;
+    private String titleString = title;
+}
+
+Now my Album[i] has a constructor where i can intialize time and the title of a song on a album.
+
+-- Overloading --
+
+OverLoading -> When you have two methods but they have different parameters
+Two ways to use them!
+
+double math.abs(<double a>)
+float math.abs(<float a>)
+so i can pass in a int, double, float and it wont show errors, if i did a int in a double method then id get a error
+
+-- Garbage --
+A method, class/object, variable and more can become garbage when theres nothing pointing to it, this gets 
+garbage collected as that object/instance becomes garbage
+
+
+-- How to start a project? --
+public class <name>
+{
+    public static void main(String[] args)
+    {
+        //The machine finds this keyword and runs only within these code blocks 
+    }
+}
+
+-- How to create a object? --
+

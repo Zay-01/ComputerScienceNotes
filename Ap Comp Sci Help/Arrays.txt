@@ -1,0 +1,29 @@
+Arrays are simple! If you want multiple varibles or objects stored within the same phrase 
+lets say we want to store multiple integers, you would have to make multiple objects however a arraay 
+prevents you from suffering that and having to take more RAM 
+
+To declare a array
+
+int[] <name> = new int(size)
+
+Arrays indexing starts from 0 and is inclusive meaning if i had a size of 5 for a array itd actually be 0-4 still same size but how you call it is different!
+
+System.out.println(name[0]) will output the first number stored!
+System.out.println(name[4]) will output the last number stored!
+
+so instead of making multiple pointers that take up storage you can have one pointer that points at 5 different numbers and says "hey i store all of these pls dont garbage collect"  (its also easier and cleaner)
+
+to iterate over a array 
+for(int i = 0; i < <name>.length; i++)
+so "i" will go through the entire array length!
+
+2D arrays are like tables, a table has a row and collunm
+int[][] <name> = new int[rowSize][collumnSize]
+
+for(int i = 0; i< <name>.length; i++) this will refer to the row size!
+{
+    for(int j = o; j< <name>[0].length; i++) this will refer to the collumn size!
+}
+
+A 2D array actually just stores another array inside it like a row would be students and each student will have a test score 
+Sysout(name[0][2]) it will output the first rows, 3rd collumn!
