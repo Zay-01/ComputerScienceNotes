@@ -36,5 +36,3 @@ for(String name: <ArrayHere>)
 {
     System.out.println("name: " + name)
 }
-
-idk how it works for 2d arrays im kinda lazy to do this part rn

@@ -1,13 +1,17 @@
-Encapsulation -> Hiding variables to make it harder to modify them 
+Encapsulation -> Hiding variables to make it harder to modify them, this is how we make
+things more secure when storing and modifying data on the backend
 
+-- Visibility --
 Modifiers -> Final and Visibility
+Final -> Makes the variable a constant, unable to be changed ever but can be used
 Visibility -> Public and Private
-
 Private -> Only visible to that class and cant be interacted with by other classes so if i did
 Public -> Other classes can use these variables or Methods
 
-Song album = new album(time, name);
-album.timeSeconds = 9532847283; //NOT POSSIBLE!!!!!!!
+-- Example --
+BankAccount account1 = new BankAccount(time, name);
+account1.currentBalance = 9532847283; //NOT POSSIBLE TO MODIFY!!!!
+//**IF** i had a getter method:
+System.out.println(account1.getDolla()); //id be able to get the value only
+However, what if its restricted to account1 only? then i cant get a value  
 
-I cant change the time once i constructed this object because its private unless i had a setter method
-or a method which allowed me to modify the variable (this is equivelent to using public but with extra steps)

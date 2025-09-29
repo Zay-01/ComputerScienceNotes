@@ -1,6 +1,12 @@
 -- Method Structure --
-<VISIBILITY> <ReturnType> <methodName>(parameters) {
+<VISIBILITY> <ReturnType> <methodName>(parameters) 
+{
     // method body
+}
+
+public void name()
+{
+    //returs nothing so no return expected
 }
 
 -- Visibility --
@@ -20,7 +26,7 @@ Setter -> updates a variable’s value (write-only, usually void)
 Driver class:
 - Contains a Calculator object
 
-Calculator class:
+Calculator class method:
 public int speedRate(int car) {
     return car - 100;
 }

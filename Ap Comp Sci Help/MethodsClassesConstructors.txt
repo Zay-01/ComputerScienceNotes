@@ -50,3 +50,12 @@ public class <name>
 
 -- How to create a object? --
 
+<Class name> <name> = new <Class name>(Parameters)
+
+This tells java i want to create a object, my object will be sc for example:
+
+Scanner sc = new Scanner();
+
+i want to use my blueprints and make a new object/instance with it so i tell java what my variable is (sc)
+then i tell java i want to make this new object for scanner and i want sc to point at it for the duration 
+of my program
