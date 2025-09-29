@@ -13,6 +13,7 @@ System.out.println(name[4]) will output the last number stored!
 
 so instead of making multiple pointers that take up storage you can have one pointer that points at 5 different numbers and says "hey i store all of these pls dont garbage collect"  (its also easier and cleaner)
 
+-- Iterate a array --
 to iterate over a array 
 for(int i = 0; i < <name>.length; i++)
 so "i" will go through the entire array length!
@@ -27,3 +28,13 @@ for(int i = 0; i< <name>.length; i++) this will refer to the row size!
 
 A 2D array actually just stores another array inside it like a row would be students and each student will have a test score 
 Sysout(name[0][2]) it will output the first rows, 3rd collumn!
+
+-- For Each Loop --
+This loop iterates through a entire array! You cant modify values so be aware
+
+for(String name: <ArrayHere>)
+{
+    System.out.println("name: " + name)
+}
+
+idk how it works for 2d arrays im kinda lazy to do this part rn
