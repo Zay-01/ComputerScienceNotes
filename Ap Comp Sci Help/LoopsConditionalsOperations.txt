@@ -12,7 +12,7 @@ for(runs a certain amount of times before shutting off)
 
 -- Conditionals and Operations --
 
-! = not so if i did !true then itd become false
+! means not so if i did !true then itd become false
 += will add so if i had { int test = 3; test+=4} test will equal 7 as we add 4 effecient instead of test = test + 4
 ++ adds one
 -- substracts one 
