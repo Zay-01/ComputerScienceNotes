@@ -39,18 +39,18 @@ A method, class/object, variable and more can become garbage when theres nothing
 garbage collected as that object/instance becomes garbage
 
 
--- How to start a project? --
+-- How to start a project --
 public class <name>
 {
     public static void main(String[] args)
     {
-        //The machine finds this keyword and runs only within these code blocks 
+        //The machine finds this keyword and runs only within these brackets
     }
 }
 
 -- How to create a object? --
 
-<Class name> <name> = new <Class name>(Parameters)
+<Class name> <pointer name> = new <Class name>(Parameters)
 
 This tells java i want to create a object, my object will be sc for example:
 

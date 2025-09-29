@@ -1,0 +1,25 @@
+-- Loops and Statements --
+if(runs when true condition)
+
+else(runs instead if there isnt a true condition)
+
+if else(runs when first if statement is false, and will check for if this conditon is true and run difference
+code!)
+
+while(runs when condition is true and continues until the condition is false)
+
+for(runs a certain amount of times before shutting off)
+
+-- Conditionals and Operations --
+
+! = not so if i did !true then itd become false
++= will add so if i had { int test = 3; test+=4} test will equal 7 as we add 4 effecient instead of test = test + 4
+++ adds one
+-- substracts one 
+% gives remainder 
+/ divides
+* multiplies
++ - obvious 
+< > Greater then or less than
+<= => greater then and equal to OR less than and equal to
+

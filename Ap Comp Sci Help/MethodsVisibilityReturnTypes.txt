@@ -16,7 +16,8 @@ public -> all classes can access variables and methods marked as public
 -- Return Types --
 int, char, double, boolean, String, arrays, etc.  
 void -> nothing is returned  
-NOTE: THE METHOD STOPS THE MOMENT YOU GET A VALUE RETURNED!
+NOTE: THE METHOD STOPS THE MOMENT YOU GET A VALUE RETURNED! Only exception is a void method 
+where it just ends after it does the final line of code within
 
 -- Getter vs Setter --
 Getter -> returns a variable’s value (read-only)  
