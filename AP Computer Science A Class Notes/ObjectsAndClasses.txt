@@ -25,7 +25,29 @@ Java creates a no-argument default - You wont see it in text
 ------
 
 ------
-Garbage -> When something isnt pointed at anymore it beocmes "garbage" aka the data no longer exist for it 
+Garbage -> When something isnt pointed at anymore it becomes "garbage" aka the data no longer exist for it 
 Garbage Collector -> Cleans up garbage so new objects can take its spot
 ^Happens automatically in java, 
 ------
+
+------
+public String toString()
+{
+    return int + " " + int;
+}
+will print this out if i did sysout(objectHere)
+
+String class is the only object without a new keyword used frequently 
+------
+
+------
+charAt(0)
+indexOf("at", index+1) will give u second occurance
+
+Concatenate Strings
+(to join strings together)
+trick to convert a number to a string
+String s;
+int i = 37;
+s = i + ""
+"" -> Empty String
