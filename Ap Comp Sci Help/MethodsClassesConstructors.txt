@@ -23,7 +23,7 @@ public Song(String time,String title)
     private String titleString = title;
 }
 
-Now my Album[i] has a constructor where i can intialize time and the title of a song on a album.
+My Album[i] has a constructor where i can intialize time and the title of a song on a album.
 
 -- Overloading --
 

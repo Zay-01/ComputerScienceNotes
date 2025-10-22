@@ -1,0 +1,25 @@
+-- Comparing Strings --
+    == compares pointers
+    .equals() for objects, compares value
+
+    String s1 = "cat";
+    String s2 = "cat";
+    Sysout(s1 == s2);
+
+    s1 and s2 point towards the same thing
+    so its true
+
+    however if we did
+    String s2 = new "cat";
+    itd give false because they arent pointing to the same object
+
+    s1.compareTo(s2) returns int s1 > s2 (+) s1 < s2 (-) 0
+
+    compareTo is like substraction 
+
+    .length()
+    .subString()
+    .indexOf
+    .split() will find all characters within parameter .split(del) will create a array 
+    String s1 = "i like pizza"
+    s1.split(" ") will make a array containig "i" "like" "pizza"
