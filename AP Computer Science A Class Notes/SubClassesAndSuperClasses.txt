@@ -1,0 +1,64 @@
+- Inheritance
+- Polymorphism
+
+----- Inheritance -----
+SubClass
+SuperClass
+
+You can only inherit ONE class!
+
+Vehicle class (Super class) <- Car class (Sub class)
+public class Car extends Vehicle
+{
+    ...
+}
+
+Where do superclasses come from?
+Ones we write
+Java API class
+Class a coworker wrote
+
+Subclass EXTENDS a Super class
+
+all methods within the super class is inherited meaning that you dont need to rewrite it
+when a method is called it looks in the subclass for it, if it doesnt see the method within it, it will go to the 
+super class and continue looking until it errors out if it cant find it
+
+Constructors **arent** inherited
+
+Issue: how can we initialize variables in our subclass?
+public savingsAccount(double newBalance, double newIntRate)
+{
+    super(initialBalance); //Initializes account constructor
+    initialBalance = newBalance; //NOT ALLOWED
+}
+
+subclass fails to call super() the compiler will insert a invisible super() with no arg
+
+---- OverRiding -----
+"Replaces" a method that the superclass has
+header MUST be the same!
+
+Same name & return type & paramter datatypes & parameter number
+
+
+
+
+----- Polymorphism -----
+Ability to change into different kinds of objects
+Vehicle v;
+v = new Car();
+v = new Truck();
+
+How to think about it:
+Vehicle[] vehicles = new Vehicle[5];
+Car, Truck, Plane etc can fit into it
+v[0] = new Car();
+v[1] = new Truck();
+v[2] = new Plane();
+
+for(int i..........)
+{
+    v[i].start();
+}
+
