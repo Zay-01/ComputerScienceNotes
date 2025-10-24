@@ -62,3 +62,12 @@ for(int i..........)
     v[i].start();
 }
 
+----- Casting object references ----
+
+if(acct instance of savingsAccount)
+{
+    ((savingsAccount)(account)).getInterest;
+}
+
+hey object if you are a savings account
+i cast you as a savings account and want to botain your getInterest
