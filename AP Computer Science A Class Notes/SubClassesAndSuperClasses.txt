@@ -71,3 +71,37 @@ if(acct instance of savingsAccount)
 
 hey object if you are a savings account
 i cast you as a savings account and want to botain your getInterest
+
+Every object class has a clone(), equals(obj), toString
+Any class extends object
+
+----- Abstract class and Methods -----
+
+Cant be instantiated (cant become a object)
+declared as abstract
+
+Place holder for future classes subclasses
+
+used when there isnt any default code to use in a method
+
+----- Interfaces -----
+cant be instantiated
+framework
+
+
+public interface FlyingObject()
+{
+    public void fly();
+    public boolean isFlying();
+}
+
+requires all classes inheriting from this to include these methods
+
+public class bird extends Animal implements FlyingObject
+
+REMINDER! You can extend only one class, but you can implement multiple interfaces 
+
+Comparable interface
+
+
+

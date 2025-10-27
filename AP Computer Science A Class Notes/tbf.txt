@@ -1,0 +1,1 @@
+Interfaces are a collection of method headers provided w/out code
