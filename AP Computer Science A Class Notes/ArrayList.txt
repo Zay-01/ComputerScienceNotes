@@ -1,0 +1,31 @@
+--Pre-Made Class--
+
+Pre made class
+Shrinks and grows as needed 
+
+must be IMPORTED!!!
+
+Behind the scenes: makes a new array with a new size to fit added or removed elements
+
+NEVER USES [] the array is basically a private variables
+
+Boolean: .add() 
+Due to interface it has to be boolean
+
+int: .size()
+
+E get(int index)
+Gets you the item at the index
+
+E set(int index, E element)
+Replaces a item at the index
+
+void add(int index, E element)
+Shifts all elements to add another at the index
+
+E remove(int index)
+Shifts all elements to fill in removed index
+
+ToString: contents of array
+
+
