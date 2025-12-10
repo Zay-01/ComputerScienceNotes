@@ -1,3 +1,10 @@
+/**
+ * 2007 AP FRQ Question Student answer sheet
+ */
+
+
+
+
 package frq;
 
 import java.util.ArrayList;
@@ -14,7 +21,7 @@ public class StudentAnswerSheet
         {
             if(answers.get(i).compareTo(key.get("?") == 0))
             {
-
+                //Prevents point deduction
             }
             else if(answers.get(i).compareTo(key.get(i) > 0))
             {
@@ -24,9 +31,8 @@ public class StudentAnswerSheet
             {
                 correct++;
             }
-            else if 
-    
         }
+        return correct - incorrect;
     }
 
     public String getName()
