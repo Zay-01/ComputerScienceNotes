@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.*;
 
-Scanner lets us take in inputs from a user that being typing or from a file!
+Scanner lets us take in inputs from a user that being typing in the terminal or from a file!
 
 --Reading terminal input--
 {

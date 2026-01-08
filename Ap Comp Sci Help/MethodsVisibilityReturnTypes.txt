@@ -28,7 +28,8 @@ Driver class:
 - Contains a Calculator object
 
 Calculator class method:
-public int speedRate(int car) {
+public int speedRate(int car) 
+{
     return car - 100;
 }
 

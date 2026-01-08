@@ -16,7 +16,7 @@ public String toString()
 will print this out if i did sysout(objectHere), java seeks this but if it cant find it, it will print out the 
 memory address of the object
 
------ Trick -----
+----- Int -> String Trick -----
 trick to convert a number to a string
 String s;
 int i = 37;

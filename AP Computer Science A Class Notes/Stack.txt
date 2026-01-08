@@ -1,0 +1,79 @@
+Stack<E> is an interface!
+
+How to implement it? Use arraylist w/restrictions 
+Big(o) is 0(1) for pop,push,isEmpty,
+
+public class listStack<E> implements Stack<E>
+{
+    private Arraylist<E> stack;
+
+    public listStack()
+    {
+        stack = new Arraylist<E>
+    }
+
+    public E push(E item)
+    {
+        stack.add(item);
+        return item;
+    }
+
+    public E pop() 
+    {
+        if(stack.size() != 0)
+        {
+            return stack.remove(stack.size()-1);
+        }
+        else
+        {
+            throw new EmptyStackException();
+        }
+    }
+
+    public E peak()
+    {
+        if(stack.size() != 0)
+        {
+            return stack.get(stack.size()-1)
+        }
+        else
+        {
+            throw new EmptyStackException();
+        }
+    }
+
+    public boolean isEmpty()
+    {
+        return stack.size() == 0;
+    }
+}
+
+Using it!
+
+ListStack<String> words = new listStack<String>;
+//Write method to find an element and return its depth (how far from top)
+top = 0; //depth 0
+missing = -1;
+
+public int depth(String s)
+{
+    listStack<String> temp = new listStack<String>;
+    int count = 0;
+
+    while(!words.isEmpty && !words.peak().equals(s))
+    {
+        temp.push(words.pop());
+        count++;
+    }
+    if(words.isEmpty())
+    {
+        count = -1;
+    }
+
+    while(!temp.isEmpty())
+    {
+        words.push(temp.pop())
+    }
+    return count;
+
+}
